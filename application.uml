@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="1014.1875" y="210.0">main.view.screens.StartScreen</node>
+    <node x="437.18749999999994" y="210.0">main.view.screens.SignUpScreen</node>
+    <node x="85.3125" y="100.0">main.model.media.Media</node>
+    <node x="0.0" y="0.0">main.model.media.MediaType</node>
+    <node x="148.31249999999994" y="0.0">main.model.media.filesystem.Folder</node>
+    <node x="295.18749999999994" y="210.0">main.model.user.UserDatabase</node>
+    <node x="78.0526785714286" y="210.0">main.model.media.MediaDatabase</node>
+    <node x="606.6875" y="440.0">main.Main</node>
+    <node x="861.1875" y="210.0">main.view.screens.CustomerScreen</node>
+    <node x="578.1875" y="210.0">main.view.screens.OperatorScreen</node>
+    <node x="574.6875" y="360.0">main.SystemController</node>
+    <node x="311.31249999999994" y="100.0">main.model.user.User</node>
+    <node x="1142.1875" y="210.0">main.view.screens.SettingsScreen</node>
+    <node x="929.0696428571429" y="100.0">main.view.ScreenManager</node>
+    <node x="296.3571428571428" y="0.0">main.model.Database</node>
+    <node x="729.1875" y="210.0">main.view.screens.LoginScreen</node>
+    <node x="186.31249999999994" y="100.0">main.model.media.filesystem.FileSystem</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="main.Main" target="main.SystemController">
+      <point x="0.0" y="-15.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.model.media.MediaDatabase" target="main.model.media.filesystem.FileSystem">
+      <point x="29.333333333333258" y="-15.0" />
+      <point x="173.38601190476186" y="170.0" />
+      <point x="199.31249999999994" y="170.0" />
+      <point x="-39.0" y="15.0" />
+    </edge>
+    <edge source="main.model.user.UserDatabase" target="main.model.Database">
+      <point x="48.400000000000006" y="-15.0" />
+      <point x="404.24999999999994" y="80.0" />
+      <point x="357.6071428571428" y="80.0" />
+      <point x="12.25" y="15.0" />
+    </edge>
+    <edge source="main.model.media.MediaDatabase" target="main.model.Database">
+      <point x="58.66666666666674" y="-15.0" />
+      <point x="202.71934523809534" y="190.0" />
+      <point x="300.81249999999994" y="190.0" />
+      <point x="300.81249999999994" y="80.0" />
+      <point x="333.1071428571428" y="80.0" />
+      <point x="-12.25" y="15.0" />
+    </edge>
+    <edge source="main.view.screens.StartScreen" target="main.view.ScreenManager">
+      <point x="0.0" y="-15.0" />
+      <point x="1068.1875" y="190.0" />
+      <point x="1002.1946428571429" y="190.0" />
+      <point x="8.125" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.screens.OperatorScreen">
+      <point x="-3.8333333333333712" y="-15.0" />
+      <point x="639.8541666666666" y="260.0" />
+      <point x="610.9375" y="260.0" />
+      <point x="-32.75" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.model.user.UserDatabase">
+      <point x="-34.5" y="-15.0" />
+      <point x="609.1875" y="300.0" />
+      <point x="355.68749999999994" y="300.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.model.media.Media" target="main.model.media.MediaType">
+      <point x="-27.0" y="-15.0" />
+      <point x="98.8125" y="80.0" />
+      <point x="93.625" y="80.0" />
+      <point x="40.125" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.screens.LoginScreen">
+      <point x="11.5" y="-15.0" />
+      <point x="655.1875" y="270.0" />
+      <point x="757.1875" y="270.0" />
+      <point x="-28.0" y="15.0" />
+    </edge>
+    <edge source="main.model.media.MediaDatabase" target="main.model.media.MediaType">
+      <point x="-44.0" y="-15.0" />
+      <point x="100.0526785714286" y="180.0" />
+      <point x="40.125" y="180.0" />
+      <point x="-13.375" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.screens.CustomerScreen">
+      <point x="34.5" y="-15.0" />
+      <point x="678.1875" y="300.0" />
+      <point x="960.9375" y="300.0" />
+      <point x="33.25" y="15.0" />
+    </edge>
+    <edge source="main.model.media.filesystem.FileSystem" target="main.model.Database">
+      <point x="41.59999999999991" y="-15.0" />
+      <point x="279.91249999999985" y="70.0" />
+      <point x="308.6071428571428" y="70.0" />
+      <point x="-36.75" y="15.0" />
+    </edge>
+    <edge source="main.model.media.MediaDatabase" target="main.model.media.Media">
+      <point x="0.0" y="-15.0" />
+      <point x="144.0526785714286" y="150.0" />
+      <point x="125.8125" y="150.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.model.media.MediaDatabase">
+      <point x="-57.5" y="-15.0" />
+      <point x="586.1875" y="330.0" />
+      <point x="177.0526785714286" y="330.0" />
+      <point x="33.0" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.model.media.filesystem.FileSystem">
+      <point x="-42.16666666666674" y="-15.0" />
+      <point x="601.5208333333333" y="310.0" />
+      <point x="268.14583333333326" y="310.0" />
+      <point x="268.14583333333326" y="180.0" />
+      <point x="277.31249999999994" y="180.0" />
+      <point x="39.0" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.model.Database">
+      <point x="-26.83333333333337" y="-15.0" />
+      <point x="616.8541666666666" y="290.0" />
+      <point x="426.68749999999994" y="290.0" />
+      <point x="426.68749999999994" y="70.0" />
+      <point x="382.1071428571428" y="70.0" />
+      <point x="36.75" y="15.0" />
+    </edge>
+    <edge source="main.view.screens.SignUpScreen" target="main.view.ScreenManager">
+      <point x="0.0" y="-15.0" />
+      <point x="497.68749999999994" y="160.0" />
+      <point x="937.1946428571429" y="160.0" />
+      <point x="-56.875" y="15.0" />
+    </edge>
+    <edge source="main.view.screens.CustomerScreen" target="main.view.ScreenManager">
+      <point x="0.0" y="-15.0" />
+      <point x="927.6875" y="190.0" />
+      <point x="985.9446428571429" y="190.0" />
+      <point x="-8.125" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.screens.SignUpScreen">
+      <point x="-19.166666666666742" y="-15.0" />
+      <point x="624.5208333333333" y="280.0" />
+      <point x="467.43749999999994" y="280.0" />
+      <point x="-30.25" y="15.0" />
+    </edge>
+    <edge source="main.view.screens.SettingsScreen" target="main.view.ScreenManager">
+      <point x="0.0" y="-15.0" />
+      <point x="1204.6875" y="180.0" />
+      <point x="1018.4446428571429" y="180.0" />
+      <point x="24.375" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.screens.StartScreen">
+      <point x="42.16666666666663" y="-15.0" />
+      <point x="685.8541666666666" y="310.0" />
+      <point x="1068.1875" y="310.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.view.screens.OperatorScreen" target="main.view.ScreenManager">
+      <point x="0.0" y="-15.0" />
+      <point x="643.6875" y="170.0" />
+      <point x="953.4446428571429" y="170.0" />
+      <point x="-40.625" y="15.0" />
+    </edge>
+    <edge source="main.model.user.UserDatabase" target="main.model.user.User">
+      <point x="-24.200000000000017" y="-15.0" />
+      <point x="331.48749999999995" y="190.0" />
+      <point x="337.93749999999994" y="190.0" />
+      <point x="-8.875" y="15.0" />
+    </edge>
+    <edge source="main.view.screens.LoginScreen" target="main.view.ScreenManager">
+      <point x="0.0" y="-15.0" />
+      <point x="785.1875" y="180.0" />
+      <point x="969.6946428571429" y="180.0" />
+      <point x="-24.375" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.ScreenManager">
+      <point x="65.16666666666663" y="-15.0" />
+      <point x="708.8541666666666" y="340.0" />
+      <point x="1285.3541666666665" y="340.0" />
+      <point x="1285.3541666666665" y="160.0" />
+      <point x="1050.9446428571428" y="160.0" />
+      <point x="56.875" y="15.0" />
+    </edge>
+    <edge source="main.model.media.filesystem.FileSystem" target="main.model.media.filesystem.Folder">
+      <point x="0.0" y="-15.0" />
+      <point x="238.31249999999994" y="60.0" />
+      <point x="209.06249999999994" y="60.0" />
+      <point x="20.25" y="15.0" />
+    </edge>
+    <edge source="main.SystemController" target="main.view.screens.SettingsScreen">
+      <point x="49.83333333333337" y="-15.0" />
+      <point x="693.5208333333334" y="320.0" />
+      <point x="1204.6875" y="320.0" />
+      <point x="0.0" y="15.0" />
+    </edge>
+    <edge source="main.model.media.Media" target="main.model.media.filesystem.Folder">
+      <point x="27.0" y="-15.0" />
+      <point x="152.8125" y="80.0" />
+      <point x="168.56249999999994" y="80.0" />
+      <point x="-20.25" y="15.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.749177090190915" x="749.5" y="285.0" />
+  <SelectedNodes />
+  <Categories />
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

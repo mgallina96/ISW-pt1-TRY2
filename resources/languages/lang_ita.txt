@@ -1,0 +1,112 @@
+﻿- -@ -
+MSG_LIBRARY_NAME -@ BIBLIOTECA SMART
+MSG_SIGN_UP_SUCCESSFUL -@ Registrazione avvenuta con successo. Benvenuto/a!
+MSG_EXIT_WITHOUT_SAVING -@ Uscita in corso senza salvare...
+MSG_EXITING -@ Uscita in corso da 
+MSG_GOODBYE -@ ... Arrivederci!
+MSG_LOG_OUT -@ Uscita in corso...
+MSG_USER_LIST -@ Ecco la lista di tutti gli utenti iscritti:
+MSG_MEDIA_LIST -@ Ecco la lista di tutti i media:
+MSG_FILTERED_MEDIA_LIST -@ Risultati:
+MSG_REMOVE_SUCCESSFUL -@ Media rimosso con successo.
+MSG_EXIT_LOGIN -@ Uscendo dalla sezione di login...
+MSG_OPERATOR_MENU -@ Benvenuto, operatore!
+MSG_CUSTOMER_MENU -@ Benvenuto, cliente!
+MSG_ABORT -@ Annullamento in corso...
+MSG_ADD_SUCCESSFUL -@ Media aggiunto con successo al percorso: 
+MSG_REMINDER_DAYS_LEFT -@ Giorni che rimangono per rinnovare l'iscrizione:
+MSG_DAYS -@ giorni
+MSG_ESCAPE_STRING_MESSAGE -@ per uscire da questa sezione
+MSG_FOLDER_CONTENTS -@ Ecco i contenuti della cartella 
+MSG_MOVE_TO_LOGIN -@ È consigliato spostarsi alla sezione login e provare ad accedere con questi dati.
+MSG_BORROW_SUCCESSFUL -@ Il media è stato preso in prestito!
+MSG_LOAN_LIST_ALL -@ Ecco la lista di tutti i prestiti effettuati agli utenti seguenti: 
+MSG_LOAN_LIST_SINGLE -@ Ecco la lista dei tuoi prestiti: 
+MSG_EXTEND_SUCCESSFUL -@ Prestito prorogato correttamente.
+MSG_LOANS_IN_YEAR -@ Numero di prestiti per anno solare: 
+MSG_EXTENSIONS_IN_YEAR -@ Numero di proroghe per anno solare: 
+MSG_USER_LOANS_IN_YEAR -@ Numero di prestiti per utente per anno solare: 
+MSG_MOST_LENT_MEDIA_IN_YEAR -@ Media maggiormente concesso in prestito per anno solare: 
+MSG_CHOOSE_YEAR -@ Inserire l'anno di partenza -> 
+MSG_LOGGED_IN_AS -@ Collegato come: 
+MSG_SUBSCRIPTION_RENEWAL_SUCCESSFUL -@ Iscrizione rinnovata con successo!
+MSG_SUBSCRIPTION_REMINDER -@ Promemoria:\n\tHai effettuato l'iscrizione il giorno 
+MSG_LATEST_RENEWAL_REMINDER -@ \n\tData dell'ultimo rinnovo: 
+MSG_EXPIRY_REMINDER -@ \n\tL'iscrizione scadrà il 
+MSG_RENEWAL_INFO -@ \n\tNon è consentito rinnovare l'iscrizione fino a 
+MSG_RENEWAL_INFO_END_OF_MESSAGE -@ prima della data di scadenza.
+MSG_BOOK_WORD -@ libro
+MSG_FILM_WORD -@ film
+PROMPT_FIRST_NAME -@ Nome (si prega di inserire un nome valido): 
+PROMPT_LAST_NAME -@ Cognome (si prega di inserire un cognome valido): 
+PROMPT_USERNAME -@ Nome utente: 
+PROMPT_PASSWORD -@ Password: 
+PROMPT_BIRTH_DATE -@ Data di nascita (formato accettato: GG/MM/AAAA): 
+PROMPT_PRESENT_USER_MULTIPLE_CHOICE -@ (1) USCIRE SENZA SALVARE\t|\t(2) CAMBIARE I CAMPI
+PROMPT_LIBRARY_INITIAL_CHOICES -@ (1) ENTRA\t|\t(2) REGISTRATI\t|\t(3) OPZIONI\t|\t(4) ESCI
+PROMPT_OPERATOR_CHOICES -@ (1) AGGIUNGI UN MEDIA\t|\t(2) RIMUOVI UN MEDIA\t|\t(3) MOSTRA I MEDIA PER CARTELLE\t|\t(4) CERCA MEDIA\t|\t(5) VISUALIZZA DATI\t|\t(6) ESCI
+PROMPT_DATA_VISUALIZATION_CHOICES -@ (1) MOSTRA TUTTI GLI UTENTI ISCRITTI\t|\t(2) MOSTRA TUTTI I PRESTITI EFFETTUATI\t|\t(3) MOSTRA NUMERO DI PRESTITI PER ANNO SOLARE\t|\t(4) MOSTRA NUMERO DI PRESTITI PER UTENTE E ANNO SOLARE\t|\n(5) MOSTRA NUMERO DI PROROGHE PER ANNO SOLARE\t|\t(6) MOSTRA IL MEDIA PIÙ PRESTATO\t|\t(7) ESCI
+PROMPT_CUSTOMER_CHOICES -@ (1) RINNOVA LA TUA ISCRIZIONE!\t|\t(2) RICHIEDI UN PRESTITO\t|\t(3) RICHIEDI UNA PROROGA\t|\t(4) CERCA UNA RISORSA\t|\t(5) ESCI
+PROMPT_SIGN_UP_CONFIRMATION -@ Confermi l'iscrizione? (y/n)
+PROMPT_REMOVE_CONFIRMATION -@ Confermi la rimozione? (y/n)
+PROMPT_LOGIN_SCREEN -@ Bentornato/a! Entra nella 
+PROMPT_SIGN_UP_SCREEN -@ Ciao! Registrati alla 
+PROMPT_MODIFY_FIELDS -@ Modificare i campi errati per favore.
+PROMPT_RETRY_LOGGING_IN -@ Si prega di riprovare ad entrare usando le credenziali corrette.
+PROMPT_CHOOSE_MEDIA_TYPE -@ Scegliere un tipo di media da aggiungere -> 
+PROMPT_ADD_BOOK -@ Aggiungere un libro per favore (!quit per uscire).
+PROMPT_ADD_FILM -@ Aggiungere un film per favore (!quit per uscire).
+PROMPT_TITLE -@ Titolo: 
+PROMPT_AUTHOR -@ Autore: 
+PROMPT_DIRECTOR -@ Regista: 
+PROMPT_GENRE -@ Genere: 
+PROMPT_PUBLICATION_YEAR -@ Anno di pubblicazione: 
+PROMPT_RELEASE_YEAR -@ Anno di uscita: 
+PROMPT_PUBLISHER_NAME -@ Casa editrice: 
+PROMPT_PRODUCER_NAME -@ Produttore: 
+PROMPT_REMOVE_MEDIA -@ Si prega di inserire una o più parole chiave per trovare il media da rimuovere (inserire !quit per uscire): 
+PROMPT_SEARCH_FOR_MEDIA -@ Si prega di inserire una o più parole chiave relative al media che si desidera trovare (inserire !quit per uscire): 
+PROMPT_SEARCH_FOR_MEDIA_TO_BORROW -@ Si prega di inserire una o più parole chiave relative al media che si desidera prendere in prestito (inserire !quit per uscire): 
+PROMPT_REMOVE_MEDIA_ID -@ Si prega di selezionare l'ID del media da rimuovere.
+PROMPT_SELECT_PATH -@ Inserire il percorso in cui si vuole mettere il media selezionando volta per volta la cartella desiderata.
+PROMPT_EXPIRY_IMMINENT -@ ATTENZIONE! SCADENZA ISCRIZIONE IMMINENTE! 
+PROMPT_WHICH_FOLDER -@ Inserire il percorso di cui si vuole vedere il contenuto, selezionando volta per volta la cartella desiderata.
+PROMPT_BORROW_CONFIRMATION -@ Confermi il prestito? (y/n)
+PROMPT_SEARCH_FOR_LOANS -@ Ecco la lista dei media presi in prestito. Si prega di selezionare il media di cui si vuole prorogare il prestito.
+PROMPT_CHOOSE_MEDIA_TO_BORROW -@ Inserire l'ID del media che si vuole prendere in prestito -> 
+PROMPT_CHOOSE_MEDIA_TO_EXTEND -@ Inserire l'ID del media di cui si vuole estendere il prestito.
+PROMPT_CHOOSE_LANGUAGE -@ Si prega di scegliere la lingua desiderata.
+ERR_NOT_OF_AGE -@ Attenzione: l'utente è minorenne. Si prega di riempire i campi da capo.
+ERR_INVALID_NAME -@ Sembra che questo nome abbia un formato non valido, si prega di inserire nuovamente un nome valido.
+ERR_INVALID_DATE -@ Questa data di nascita ha un formato non valido. Si prega di inserire una data di nascita valida.
+ERR_INVALID_YEAR -@ Questo anno ha un formato non valido. Si prega di inserire un anno valido.
+ERR_LOGIN_FAILED -@ Login fallito: username o password sbagliati.
+ERR_SIGN_UP_FAILED -@ Iscrizione fallita.
+ERR_SIGN_UP_ABORTED -@ Iscrizione terminata senza successo.
+ERR_SAVING_DATABASE -@ C'è stato un errore durante il salvataggio del seguente database in un file .ser: 
+ERR_LOADING_DATABASE -@ C'è stato un errore durante il caricamento del seguente database: 
+ERR_LOADING_FILESYSTEM -@ C'è stato un errore durante il caricamento del file system.
+ERR_CLASS_NOT_FOUND -@ Errore! La classe seguente non è stata trovata: 
+ERR_FILE_NOT_FOUND -@ Errore! Il file appartenente alla classe seguente non è stato trovato: 
+ERR_MSG_INVALID_INPUT -@ Input non valido.
+ERR_USER_ALREADY_PRESENT -@ Questo nome utente è già presente nel database.
+ERR_CANNOT_RENEW -@ È troppo presto per effettuare il rinnovo dell'iscrizione.
+ERR_FILTERED_MEDIA_LIST_EMPTY -@ Nessun media trovato. Terminazione in corso...
+ERR_MEDIA_NOT_PRESENT -@ L'ID selezionato non corrisponde ad alcun media nel database.
+ERR_MEDIA_ALREADY_PRESENT -@ Il media inserito è già presente nel database.
+ERR_INVALID_PATH -@ Il percorso inserito sembra essere non valido. Si prega di inserire nuovamente un percorso valido. (cartella\\sottocartella\\sottocartella...)
+ERR_PATH_NOT_PRESENT -@ Il percorso inserito non esiste.
+ERR_BORROW_FAILED -@ Non è stato possibile prendere in prestito il media.
+ERR_MEDIA_NOT_AVAILABLE -@ Il media selezionato non è disponibile al momento.
+ERR_LOAN_LIMIT_REACHED -@ Tetto massimo di prestiti raggiunto per questo tipo di media! Non è possibile prendere in prestito altri media di questo tipo al momento.
+ERR_LOAN_UNAVAILABLE -@ Il media richiesto non è disponibile al momento.
+ERR_USER_NOT_PRESENT -@ Il nome utente inserito non è presente. Si prega di verificare che il nome utente sia corretto, oppure di registrarsi.
+ERR_WRONG_PASSWORD -@ Password errata.
+ERR_LOAN_LIST_EMPTY -@ Non hai effettuato alcun prestito
+ERR_TOO_EARLY_TO_EXTEND -@ È troppo presto per estendere questo prestito.
+ERR_ALREADY_EXTENDED -@ Prestito già prorogato una volta. È impossibile ripetere l'operazione.
+ERR_NO_LOANS_IN_YEAR -@ Non sono stati effettuati prestiti nell'anno 
+ERR_LOAN_NOT_FOUND -@ Errore! Prestito non trovato.
+ERR_LOAN_DOES_NOT_EXIST -@ Non hai mai preso in prestito il media associato a questo ID.
+ERR_LANGUAGE_UNAVAILABLE -@ La lingua inserita non è disponibile.
+SEPARATOR -@ -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
